@@ -1,5 +1,5 @@
 //
-//  Wrong.swift
+//  WrongTwo.swift
 //  WhosThatDuckTwo
 //
 //  Created by Scholar on 6/29/23.
@@ -7,9 +7,8 @@
 
 import SwiftUI
 
-struct Wrong: View {
+struct WrongTwo: View {
     var body: some View {
-        
         
         NavigationStack {
            
@@ -33,7 +32,7 @@ struct Wrong: View {
                         .padding(.bottom)
                     Spacer()
                     
-                    NavigationLink(destination: QuestionTwoRuddy()) {
+                    NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
                         Text("Next >")
                             .foregroundColor(Color.white)
                             .font (.custom("Unkempt-Bold", fixedSize: 25))
@@ -54,8 +53,11 @@ struct Wrong: View {
     }
     
 }
-struct Wrong_Previews: PreviewProvider {
+    
+
+
+struct WrongTwo_Previews: PreviewProvider {
     static var previews: some View {
-        Wrong()
+        WrongTwo()
     }
 }

@@ -17,6 +17,9 @@
 		BD01378E2A4DF81B00EF927E /* Unkempt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD01378B2A4DF81B00EF927E /* Unkempt-Regular.ttf */; };
 		BD01378F2A4DF81B00EF927E /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD01378C2A4DF81B00EF927E /* LICENSE.txt */; };
 		BD5DED8E2A4E0DA700FA268E /* Wrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5DED8D2A4E0DA700FA268E /* Wrong.swift */; };
+		BD5DED902A4E177C00FA268E /* QuestionTwoRuddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5DED8F2A4E177C00FA268E /* QuestionTwoRuddy.swift */; };
+		BD5DED922A4E178F00FA268E /* AnswerTwoRuddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5DED912A4E178F00FA268E /* AnswerTwoRuddy.swift */; };
+		BD5DED942A4E270800FA268E /* WrongTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5DED932A4E270800FA268E /* WrongTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		BD01378C2A4DF81B00EF927E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		BD0137902A4DF83900EF927E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BD5DED8D2A4E0DA700FA268E /* Wrong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrong.swift; sourceTree = "<group>"; };
+		BD5DED8F2A4E177C00FA268E /* QuestionTwoRuddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTwoRuddy.swift; sourceTree = "<group>"; };
+		BD5DED912A4E178F00FA268E /* AnswerTwoRuddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerTwoRuddy.swift; sourceTree = "<group>"; };
+		BD5DED932A4E270800FA268E /* WrongTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +75,10 @@
 				BD0137792A4DF51D00EF927E /* ContentView.swift */,
 				BD0137852A4DF53300EF927E /* QuestionOneMallard.swift */,
 				BD0137872A4DF53E00EF927E /* AnswerOneMallard.swift */,
+				BD5DED8F2A4E177C00FA268E /* QuestionTwoRuddy.swift */,
+				BD5DED912A4E178F00FA268E /* AnswerTwoRuddy.swift */,
 				BD5DED8D2A4E0DA700FA268E /* Wrong.swift */,
+				BD5DED932A4E270800FA268E /* WrongTwo.swift */,
 				BD01377B2A4DF51F00EF927E /* Assets.xcassets */,
 				BD0137892A4DF81B00EF927E /* Unkempt */,
 				BD01377D2A4DF51F00EF927E /* Preview Content */,
@@ -168,11 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5DED942A4E270800FA268E /* WrongTwo.swift in Sources */,
+				BD5DED922A4E178F00FA268E /* AnswerTwoRuddy.swift in Sources */,
 				BD5DED8E2A4E0DA700FA268E /* Wrong.swift in Sources */,
 				BD0137882A4DF53E00EF927E /* AnswerOneMallard.swift in Sources */,
 				BD01377A2A4DF51D00EF927E /* ContentView.swift in Sources */,
 				BD0137862A4DF53300EF927E /* QuestionOneMallard.swift in Sources */,
 				BD0137782A4DF51D00EF927E /* WhosThatDuckTwoApp.swift in Sources */,
+				BD5DED902A4E177C00FA268E /* QuestionTwoRuddy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
