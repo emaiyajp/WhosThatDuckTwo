@@ -28,7 +28,7 @@ struct AnswerTwoRuddy: View {
                     .padding(.top, 40.0)
                 Spacer()
                 
-                Image("")
+                Image("Ruddy")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
                 Spacer()
@@ -44,7 +44,7 @@ struct AnswerTwoRuddy: View {
                     .foregroundColor(Color(hue: 0.142, saturation: 0.133, brightness: 0.913))
                     .padding(.bottom)
                 
-                Text("Also known as the Oxyura Jamaciesis that is about 13.5-17 inches wide, wighing about 1.23 pounds, with the windspan of 18.5 inches. They fully sumerge themselves when they go under water. ")
+                Text("The Oxyura Jamaciesis is 13.5-17 inches wide, weighing about 1.23 pounds, with the wingspan of 18.5 inches. They fully submerge themselves when they go under water. ")
                     .font(.headline)
                     .foregroundColor(Color.white)
                     .padding()

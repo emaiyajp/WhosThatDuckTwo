@@ -28,7 +28,7 @@ struct AnswerThreeAmBlack: View {
                     .padding(.top, 40.0)
                 Spacer()
                 
-                Image("")
+                Image("AmBlack")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
                 Spacer()
@@ -44,7 +44,7 @@ struct AnswerThreeAmBlack: View {
                     .foregroundColor(Color(hue: 0.142, saturation: 0.133, brightness: 0.913))
                     .padding(.bottom)
                 
-                Text("Also known as Anas Rubripes that is about 21.3-23.2 inches wide, weighing about 25.4-57.9 ounces, with the singspan of 34.6-37.4 inches. They stick their tail in the air when they are under the water. ")
+                Text("The Anas Rubripes that is about 21.3-23.2 inches wide, weighing about 25.4-57.9 ounces, with the wingspan of 34.6-37.4 inches. They stick their tail in the air when they are under the water. ")
                     .font(.headline)
                     .foregroundColor(Color.white)
                     .padding()
