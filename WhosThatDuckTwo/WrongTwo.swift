@@ -32,7 +32,7 @@ struct WrongTwo: View {
                         .padding(.bottom)
                     Spacer()
                     
-                    NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                    NavigationLink(destination: QuestionThreeAmBlack()) {
                         Text("Next >")
                             .foregroundColor(Color.white)
                             .font (.custom("Unkempt-Bold", fixedSize: 25))

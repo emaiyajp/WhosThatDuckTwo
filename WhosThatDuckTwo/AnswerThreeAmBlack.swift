@@ -1,15 +1,15 @@
 //
-//  AnswerTwoRuddy.swift
+//  AnswerThreeAmBlack.swift
 //  WhosThatDuckTwo
 //
 //  Created by Scholar on 6/29/23.
 //
 
-//Chnage image and Navigation Destination for "Next >"
+//FIX: IMAGE
 
 import SwiftUI
 
-struct AnswerTwoRuddy: View {
+struct AnswerThreeAmBlack: View {
     
     @Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
     
@@ -34,22 +34,22 @@ struct AnswerTwoRuddy: View {
                 Spacer()
                 
                 
-                Text("This is a...")
+                Text("This is an...")
                     .font (.custom("Unkempt-Bold", fixedSize: 25))
                     .foregroundColor(Color(hue: 0.142, saturation: 0.133, brightness: 0.913))
                     .padding(.top, 40.0)
                 
-                Text("Ruddy Duck")
+                Text("American Black Duck")
                     .font (.custom("Unkempt-Bold", fixedSize: 35))
                     .foregroundColor(Color(hue: 0.142, saturation: 0.133, brightness: 0.913))
                     .padding(.bottom)
                 
-                Text("Also known as the Oxyura Jamaciesis that is about 13.5-17 inches wide, wighing about 1.23 pounds, with the windspan of 18.5 inches. They fully sumerge themselves when they go under water. ")
+                Text("Also known as Anas Rubripes that is about 21.3-23.2 inches wide, weighing about 25.4-57.9 ounces, with the singspan of 34.6-37.4 inches. They stick their tail in the air when they are under the water. ")
                     .font(.headline)
                     .foregroundColor(Color.white)
                     .padding()
                 
-                NavigationLink(destination: QuestionThreeAmBlack()) {
+                NavigationLink(destination: QuestionTwoRuddy()) {
                     Text("Next >")
                         .foregroundColor(Color.white)
                         .font (.custom("Unkempt-Bold", fixedSize: 25))
@@ -63,11 +63,9 @@ struct AnswerTwoRuddy: View {
             .padding()
         }
     }
-        
-}
-
-struct AnswerTwoRuddy_Previews: PreviewProvider {
-    static var previews: some View {
-        AnswerTwoRuddy()
+    struct AnswerThreeAmBlack_Previews: PreviewProvider {
+        static var previews: some View {
+            AnswerThreeAmBlack()
+        }
     }
 }

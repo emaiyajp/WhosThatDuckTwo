@@ -14,14 +14,14 @@ struct QuestionTwoRuddy: View {
     @Environment(\.presentationMode) private var presentationMode: Binding<PresentationMode>
     
     var body: some View {
-      
-            
+       
                 ZStack {
                     (Color(red: 0.027450980392156862, green: 0.5607843137254902, blue: 0.43137254901960786))
                         .ignoresSafeArea()
+                        .navigationBarBackButtonHidden(true)
                     
                     VStack {
-                        
+                            
                         
                         Text("Who's That Duck?")
                             .foregroundColor(Color.white)
@@ -29,8 +29,8 @@ struct QuestionTwoRuddy: View {
                             .padding(.top,20.0)
                         Spacer()
                         
-                        
-                        Image("Mallard Silhouette")
+
+                        Image("")
                             .padding(.top, 60.0)
                             
                         Spacer()
@@ -84,7 +84,7 @@ struct QuestionTwoRuddy: View {
                             }
                 })
             //back navigation
-            
+                .navigationBarBackButtonHidden(true)
             
                 
         }
