@@ -11,6 +11,12 @@
 		BD01377A2A4DF51D00EF927E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0137792A4DF51D00EF927E /* ContentView.swift */; };
 		BD01377C2A4DF51F00EF927E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD01377B2A4DF51F00EF927E /* Assets.xcassets */; };
 		BD01377F2A4DF51F00EF927E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD01377E2A4DF51F00EF927E /* Preview Assets.xcassets */; };
+		BD0137862A4DF53300EF927E /* QuestionOneMallard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0137852A4DF53300EF927E /* QuestionOneMallard.swift */; };
+		BD0137882A4DF53E00EF927E /* AnswerOneMallard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0137872A4DF53E00EF927E /* AnswerOneMallard.swift */; };
+		BD01378D2A4DF81B00EF927E /* Unkempt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD01378A2A4DF81B00EF927E /* Unkempt-Bold.ttf */; };
+		BD01378E2A4DF81B00EF927E /* Unkempt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD01378B2A4DF81B00EF927E /* Unkempt-Regular.ttf */; };
+		BD01378F2A4DF81B00EF927E /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD01378C2A4DF81B00EF927E /* LICENSE.txt */; };
+		BD5DED8E2A4E0DA700FA268E /* Wrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5DED8D2A4E0DA700FA268E /* Wrong.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		BD0137792A4DF51D00EF927E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD01377B2A4DF51F00EF927E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD01377E2A4DF51F00EF927E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD0137852A4DF53300EF927E /* QuestionOneMallard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionOneMallard.swift; sourceTree = "<group>"; };
+		BD0137872A4DF53E00EF927E /* AnswerOneMallard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerOneMallard.swift; sourceTree = "<group>"; };
+		BD01378A2A4DF81B00EF927E /* Unkempt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unkempt-Bold.ttf"; sourceTree = "<group>"; };
+		BD01378B2A4DF81B00EF927E /* Unkempt-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unkempt-Regular.ttf"; sourceTree = "<group>"; };
+		BD01378C2A4DF81B00EF927E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		BD0137902A4DF83900EF927E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BD5DED8D2A4E0DA700FA268E /* Wrong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrong.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +64,14 @@
 		BD0137762A4DF51D00EF927E /* WhosThatDuckTwo */ = {
 			isa = PBXGroup;
 			children = (
+				BD0137902A4DF83900EF927E /* Info.plist */,
 				BD0137772A4DF51D00EF927E /* WhosThatDuckTwoApp.swift */,
 				BD0137792A4DF51D00EF927E /* ContentView.swift */,
+				BD0137852A4DF53300EF927E /* QuestionOneMallard.swift */,
+				BD0137872A4DF53E00EF927E /* AnswerOneMallard.swift */,
+				BD5DED8D2A4E0DA700FA268E /* Wrong.swift */,
 				BD01377B2A4DF51F00EF927E /* Assets.xcassets */,
+				BD0137892A4DF81B00EF927E /* Unkempt */,
 				BD01377D2A4DF51F00EF927E /* Preview Content */,
 			);
 			path = WhosThatDuckTwo;
@@ -65,6 +83,16 @@
 				BD01377E2A4DF51F00EF927E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD0137892A4DF81B00EF927E /* Unkempt */ = {
+			isa = PBXGroup;
+			children = (
+				BD01378A2A4DF81B00EF927E /* Unkempt-Bold.ttf */,
+				BD01378B2A4DF81B00EF927E /* Unkempt-Regular.ttf */,
+				BD01378C2A4DF81B00EF927E /* LICENSE.txt */,
+			);
+			path = Unkempt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +155,9 @@
 			files = (
 				BD01377F2A4DF51F00EF927E /* Preview Assets.xcassets in Resources */,
 				BD01377C2A4DF51F00EF927E /* Assets.xcassets in Resources */,
+				BD01378E2A4DF81B00EF927E /* Unkempt-Regular.ttf in Resources */,
+				BD01378F2A4DF81B00EF927E /* LICENSE.txt in Resources */,
+				BD01378D2A4DF81B00EF927E /* Unkempt-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5DED8E2A4E0DA700FA268E /* Wrong.swift in Sources */,
+				BD0137882A4DF53E00EF927E /* AnswerOneMallard.swift in Sources */,
 				BD01377A2A4DF51D00EF927E /* ContentView.swift in Sources */,
+				BD0137862A4DF53300EF927E /* QuestionOneMallard.swift in Sources */,
 				BD0137782A4DF51D00EF927E /* WhosThatDuckTwoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +303,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WhosThatDuckTwo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhosThatDuckTwo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WhosThatDuckTwo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhosThatDuckTwo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

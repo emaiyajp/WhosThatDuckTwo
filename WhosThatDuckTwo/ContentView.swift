@@ -9,13 +9,41 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            ZStack {
+                (Color(red: 0.027450980392156862, green: 0.5607843137254902, blue: 0.43137254901960786))
+                    .ignoresSafeArea()
+                VStack {
+                    Text("Who's That Duck?")
+                        .font (.custom("Unkempt-Bold", fixedSize: 45))
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                        .padding(.top)
+                        Spacer()
+                        .padding()
+                    
+                    Image("Mallard Silhouette")
+                        Spacer()
+                        .padding()
+                    
+                    NavigationLink(destination: QuestionOneMallard()) {
+                        Text("Let's Start!")
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .padding() .font (.custom("Unkempt-Bold", fixedSize: 30))
+                    }
+                    
+                }
+                .padding()
+            }
+            .navigationTitle("Who's That Duck?")
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
+            
+            
+            
         }
-        .padding()
     }
 }
 
