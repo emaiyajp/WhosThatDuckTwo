@@ -32,7 +32,8 @@ struct QuestionThreeAmBlack: View {
                     Spacer()
                     
                     
-                    Image("")
+                    Image("AmBlack Silhouette")
+                        .resizable(resizingMode: .stretch)
                         .padding(.top, 60.0)
                         
                     Spacer()

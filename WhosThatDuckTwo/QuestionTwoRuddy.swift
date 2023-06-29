@@ -30,7 +30,8 @@ struct QuestionTwoRuddy: View {
                         Spacer()
                         
 
-                        Image("")
+                        Image("Ruddy Silhouette")
+                            .resizable(resizingMode: .stretch)
                             .padding(.top, 60.0)
                             
                         Spacer()
